@@ -1,0 +1,36 @@
+1)
+curl --location 'http://arch.homework/' \
+--header 'Content-Type: application/json' \
+--data ''
+
+2)
+curl --location 'http://arch.homework/user' \
+--header 'Content-Type: application/json' \
+--data ''
+
+3)
+curl --location 'http://arch.homework/user/1' \
+--header 'Content-Type: application/json' \
+--data ''
+
+4)
+curl --location 'http://arch.homework/user' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"username": "Nika1",
+"firstName": "John",
+"lastName": "Doe",
+"email": "bestjohn@doe.com",
+"phone": "+71002003040"
+}'
+
+5)
+curl --location --request PUT 'http://arch.homework/user/35' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"username": "TestUserName",
+"firstName": "John",
+"lastName": "Doe",
+"email": "bestjohn@doe.com",
+"phone": "+71002003040"
+}'
