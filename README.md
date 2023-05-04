@@ -10,5 +10,7 @@
 - Удаление развернутых ресурсов
 
       kubectl delete namespace user
-- Проверить можно с помощью Postman (user_api.json)
+- Проверить можно с помощью Postman: перечень вызова API через curl (user_api.txt) 
+ 
+  и postmen collections (user_collections.postman_test_run.json)
 

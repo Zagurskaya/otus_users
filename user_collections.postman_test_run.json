@@ -1,0 +1,213 @@
+{
+	"id": "e679a6ef-8dfc-4513-a394-dc3a55488c1e",
+	"name": "user_collections",
+	"timestamp": "2023-05-04T20:09:01.673Z",
+	"collection_id": "0-3a540ea9-7d30-4aa5-9e67-1f6587d9be26",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e121e59d-3dc9-41c4-b161-d5330ee46a8d",
+			"name": "http://arch.homework/",
+			"url": "http://arch.homework/",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"response body has json code OK": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json code OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status test": true,
+					"response body has json code OK": true
+				}
+			]
+		},
+		{
+			"id": "e70fc5f0-0d8b-4a90-96fc-eed8c8c294e8",
+			"name": "http://arch.homework/user",
+			"url": "http://arch.homework/user",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "84e2f57e-a2d0-475c-92ca-20398d9cdfa2",
+			"name": "http://arch.homework/user/{id}",
+			"url": "http://arch.homework/user/2",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"response body has body by user": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has body by user": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status test": true,
+					"response body has body by user": true
+				}
+			]
+		},
+		{
+			"id": "ef7ae1f7-f2da-4e2c-a676-d91064c727ab",
+			"name": "http://arch.homework/user",
+			"url": "http://arch.homework/user",
+			"time": 316,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				316
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fed718e3-d0e7-4a61-9748-725be903035c",
+			"name": "http://arch.homework/user/{id}",
+			"url": "http://arch.homework/user/1",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"response body has json code OK": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json code OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Status test": true,
+					"response body has json code OK": true
+				}
+			]
+		},
+		{
+			"id": "9816ffb7-03e0-4d5d-95e8-5d92f54508ca",
+			"name": "http://arch.homework/user/{id}",
+			"url": "http://arch.homework/user/2",
+			"time": 37,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 687,
+	"collection": {
+		"requests": [
+			{
+				"id": "e121e59d-3dc9-41c4-b161-d5330ee46a8d",
+				"method": "GET"
+			},
+			{
+				"id": "e70fc5f0-0d8b-4a90-96fc-eed8c8c294e8",
+				"method": "GET"
+			},
+			{
+				"id": "84e2f57e-a2d0-475c-92ca-20398d9cdfa2",
+				"method": "GET"
+			},
+			{
+				"id": "ef7ae1f7-f2da-4e2c-a676-d91064c727ab",
+				"method": "POST"
+			},
+			{
+				"id": "fed718e3-d0e7-4a61-9748-725be903035c",
+				"method": "PUT"
+			},
+			{
+				"id": "9816ffb7-03e0-4d5d-95e8-5d92f54508ca",
+				"method": "DELETE"
+			}
+		]
+	}
+}
